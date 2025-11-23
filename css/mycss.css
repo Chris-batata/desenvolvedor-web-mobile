@@ -1,0 +1,64 @@
+.h-100 p {
+  text-align: justify;
+}
+
+
+.nav-link.active {
+  color: #967cda !important;
+}
+
+
+.bg-primary {
+  background-color: #6f42c1 !important; /* sua cor */
+}
+.text-primary {
+  color: #6f42c1 !important;
+}
+.btn-primary {
+  background-color: #6f42c1 !important;
+  border-color: #6f42c1 !important;
+}
+.btn-primary:hover {
+  background-color: #5a32a3 !important; /* tom mais escuro para hover */
+  border-color: #5a32a3 !important;
+}
+.badge.bg-primary {
+  background-color: #6f42c1 !important;
+}
+
+
+.star-rating {
+  direction: rtl;
+  font-size: 1.8rem;
+  unicode-bidi: bidi-override;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.2s;
+  margin: 0 4px;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #ffc107;
+}
+
+#ratingbox {
+  background-color: transparent;
+}
+
+
+textarea {
+  resize: none !important;
+}
